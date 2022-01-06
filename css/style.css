@@ -38,6 +38,24 @@ body{
     top: 26%;
     right: 7%;
 }
+.video02{
+    position: absolute;
+    width: 82%;
+    top: 53%;
+    right: 9%;
+}
+.video03{
+    position: absolute;
+    width: 82%;
+    top: 30%;
+    right: 9%;
+}
+.video04{
+    position: absolute;
+    width: 82%;
+    top: 32%;
+    right: 9%;
+}
 
  .sns_btn {
      text-align: center;
