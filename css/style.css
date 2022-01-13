@@ -138,6 +138,30 @@ body{
     font-size: 14px;
 }
 
+img.anniversary_2{
+    width:40%;
+    position: fixed;
+    top:-1%;
+    right:30%;
+    z-index:100;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px){
+    img.anniversary_2 {
+        width:101%;
+        position: fixed;
+        top: 5%;
+        right:-1%;
+        z-index: 100;
+    }
+}
+
+@media screen and (max-width: 414px){
+    img.anniversary_2 {
+       top: 10%;
+    }
+}
+
 .SP{
     display: none;
 }
