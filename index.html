@@ -23,6 +23,7 @@
 
 
     <!-- ▼自由編集箇所▼ -->
+    <link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
@@ -278,6 +279,12 @@
                     <div class="fv">
                         <img src="images/01.png" alt="">
                         <img src="images/02.png" alt="">
+                        <div class="PC">
+                          <label for="modal-trigger" class="modal-open-button"> <img src="images/modal.png" alt=""></label>
+                        </div>
+                        <div class="SP">
+                          <label for="modal-trigger" class="modal-open-button"> <img src="images/SP_modal.png" alt=""></label>
+                        </div>
                         <div class="video_box">
                             <img src="images/03.png" alt="">
                             <video class="video01" src="./video/video01.mov" loop autoplay muted playsinline>
@@ -343,6 +350,51 @@
                         </a>
                     </div>
                 </section>
+
+                <!-- 日本的Modal -->
+                <div class="modal-wrap" id="modal-wrap">
+                  <input id="modal-trigger" type="checkbox">
+                  <div class="modal-overlay">
+                      <label for="modal-trigger" class="modal-trigger"></label>
+                      <div class="modal-content-jp">
+                          <label for="modal-trigger" class="modal-close-button">✖️</label>
+                          <div id="guidecolumn" class="regularly__block">
+                              <dl>
+                                  <dt>【Fit Your Body 試穿可換貨】 換貨辦法說明</dt>
+                                  <dd>為了讓您有更好的購買體驗，台灣娜珂黛肌公司優於消保法規，承諾到貨後七日工作日內，可提供您一次的商品尺寸更換服務。<br>
+                                      請注意，一旦超過七日猶豫期時效，該筆訂單將無法受理換貨。<br>
+                                      為響應環境保育，建議購買前可向客服諮詢尺寸，並請珍惜換貨機會，避免不必要的資源浪費。</dd>
+                              </dl>
+
+                              <dl>
+                                  <dt>【試穿可換貨規則】</dt>
+                                  <dd>●請於商品收貨後7日內聯繫客服申請換貨。(可利用以下管道提出申請)<br />
+                                      LINE：<a href="https://lin.ee/2SuFfzCR" target="_blank">https://lin.ee/2SuFfzCR</a>
+                                      (或ID搜尋：@779lezme)<br />
+                                      客服電話：02-2321-1502 (服務時間：周一至周五11:00-18:00)<br />
+                                      客服郵箱：support@lunanaturalbra.com<br />
+                                      ●換貨僅限於尺寸更換，恕不接受顏色更換。<br />
+                                      ●換貨申請通過後，本公司將委託宅配人員前往商品所在地點進行收取。由品管人員確認無誤後本公司會再安排換貨商品寄出。<br />
+                                      ●凡於<span id="lastday"></span>前購買，換貨商品收取與寄出之運費皆由本公司負擔。<br />
+                                      ●請維持商品完整性，商品外盒及塑膠袋完整無破裂，商品無下水，沒有異味等情形方可進行更換。<br />
+                                      ※請詳細閱讀商品完整性定義，若您訂購視同同意本公司之規定<br />
+                                      ●商品完整性定義<br />
+                                      彩色：外盒不可有破損、髒汙、濕損<br />
+                                      商品包裝：塑膠袋不可破裂、髒污<br />
+                                      商品：本身不可有髒污、汗漬、破損<br />
+                                      商品異味：有明顯異於LUNA現有庫存商品的味道即視為異味，本公司擁有最後解釋、定義異味的權力，下單購買視同同意此規則。<br />
+                                      ●已更換過一次之商品恕不受理換貨。
+                                  </dd>
+                              </dl>
+
+                              <dl>
+                                  <dt>【注意事項】</dt>
+                                  <dd>●為確保商品完整性，請使用原箱或較堅固紙箱包裝，勿使用塑膠袋、紙袋、軟性紙盒或是無包裝等易壓損方式包裝，以免影響您的換貨權益。 發票及隨貨附贈的手冊無須放入，若本公司收到將不會重新為您寄出。</dd>
+                              </dl>
+                          </div>
+                      </div>
+                  </div>
+              </div>
                 <!-- ▲自由編集箇所▲ -->
             </div>
             <!-- contents_standard End -->
