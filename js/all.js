@@ -17,9 +17,9 @@ $(document).ready(function () {
     var year = nowDate.getFullYear()
     var month = nowDate.getMonth() + 1;
     month = month < 10 ? '0' + month : month;
-    var lastDay = new Date(`${year}`,`${month}`,0);
-    var day = lastDay.getDate(); 
-    day = day < 10 ? '0' + day : day; 
+    var lastDay = new Date(`${year}`, `${month}`, 0);
+    var day = lastDay.getDate();
+    day = day < 10 ? '0' + day : day;
     $('#lastday').text(`${month}/${day}`);
 
     //活動辦法彈跳視窗
@@ -32,7 +32,9 @@ $(document).ready(function () {
         e.preventDefault();
         $(".anniversary_2").hide();
     });
+});
 
-    // 隱藏優惠代碼
+// 隱藏購物車優惠代碼
+$("#lp_form").ready(function () {
     $("label:contains('優惠代碼') , #couponCodeInput").hide();
 });
