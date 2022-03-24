@@ -32,4 +32,7 @@ $(document).ready(function () {
         e.preventDefault();
         $(".anniversary_2").hide();
     });
+
+    // 隱藏優惠代碼
+    $("label:contains('優惠代碼') , #couponCodeInput").hide();
 });
