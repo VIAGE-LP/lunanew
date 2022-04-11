@@ -7,21 +7,6 @@ $(document).ready(function () {
         }, 900);
     });
 
-    // 日本的modal
-    $('.modal-open-button').click(function () {
-        $('#modal-wrap').css('position', 'absolute');
-    });
-
-    // 日本的modal自動抓取月份最後一天
-    var nowDate = new Date();
-    var year = nowDate.getFullYear()
-    var month = nowDate.getMonth() + 1;
-    month = month < 10 ? '0' + month : month;
-    var lastDay = new Date(`${year}`, `${month}`, 0);
-    var day = lastDay.getDate();
-    day = day < 10 ? '0' + day : day;
-    $('#lastday').text(`${month}/${day}`);
-
     //活動辦法彈跳視窗
     $(".anniversary_2").hide();
     $('.anniversary_1').click(function (e) {
@@ -32,9 +17,4 @@ $(document).ready(function () {
         e.preventDefault();
         $(".anniversary_2").hide();
     });
-});
-
-// 隱藏購物車優惠代碼
-$("#lp_form").ready(function () {
-    $("label:contains('優惠代碼') , #couponCodeInput").hide();
 });
