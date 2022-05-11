@@ -23,13 +23,13 @@ $(document).ready(function () {
     $('#lastday').text(`${month}/${day}`);
 
     //活動辦法彈跳視窗
-    $(".anniversary_2").hide();
-    $('.anniversary_1').click(function (e) {
-        e.preventDefault();
-        $(".anniversary_2").toggle();;
-    });
-    $('.anniversary_2').click(function (e) {
-        e.preventDefault();
-        $(".anniversary_2").hide();
-    });
+    // $(".anniversary_2").hide();
+    // $('.anniversary_1').click(function (e) {
+    //     e.preventDefault();
+    //     $(".anniversary_2").toggle();;
+    // });
+    // $('.anniversary_2').click(function (e) {
+    //     e.preventDefault();
+    //     $(".anniversary_2").hide();
+    // });
 });
