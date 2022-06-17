@@ -23,7 +23,7 @@
   },
   "location": "https://lunanaturalbra.com",
   "defaultShippingDate": null,
-  "couponIsEnable": false,
+  "couponIsEnable": true,
   "questionIsEnable": false,
   "questionTitle": null,
   "questionIsRequired": true,
