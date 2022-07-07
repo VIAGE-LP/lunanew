@@ -1,16 +1,8 @@
 {
   "selectType": null,
   "promotionCode": ["", "lnub", ""],
-  "promotionCodeMmemo": [
-    "成套的促編(不需要則留空)",
-    "內衣的促編(不需要則留空)",
-    "內褲的促銷(不需要則留空)"
-  ],
-  "productTitle": [
-    "LUNA美媞晚安內衣+美媞內褲",
-    "LUNA美媞晚安內衣",
-    "LUNA美媞內褲"
-  ],
+  "promotionCodeMmemo": ["成套的促編(不需要則留空)", "內衣的促編(不需要則留空)", "內褲的促銷(不需要則留空)"],
+  "productTitle": ["LUNA美媞晚安內衣+美媞內褲", "LUNA美媞晚安內衣", "LUNA美媞內褲"],
   "changeSizeDisplay": "1",
   "maxquantity": 10,
   "categories": ["內衣", "內褲"],
@@ -202,6 +194,28 @@
         }
       ],
       "color": "夢幻紫(初上市數量有限)",
+      "colorCode": "#000000",
+      "category": "內衣"
+    },
+    {
+      "size": [
+        {
+          "S": "0",
+          "code": "4560449975094",
+          "text": "（預購）"
+        },
+        {
+          "M": "0",
+          "code": "4560449975100",
+          "text": "（預購）"
+        },
+        {
+          "L": "0",
+          "code": "4560449975247",
+          "text": "（預購）"
+        }
+      ],
+      "color": "午夜藍(新色限量上市)",
       "colorCode": "#000000",
       "category": "內衣"
     },
